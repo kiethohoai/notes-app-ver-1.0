@@ -1,0 +1,98 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.6rem;
+}
+
+.container {
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(
+      to right bottom,
+      #fb3edb,
+      #c56af6,
+      #8a83fe,
+      #4f91f5,
+      #2798e0
+   );
+   color: #fff;
+   font-size: 2.4rem;
+}
+
+.container h1 {
+   display: flex;
+   align-items: center;
+   margin-left: 70px;
+   padding-top: 80px;
+   font-size: 4.1rem;
+}
+
+.container h1 img {
+   width: 64px;
+}
+
+.container button {
+   margin-left: 70px;
+   margin-top: 20px;
+   color: #fff;
+   border-radius: 24px;
+   background-color: red;
+   outline: 0;
+   border: 0;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   padding: 4px 24px;
+   font-size: 20px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.container button:hover {
+   transform: scale(1.04);
+}
+
+.container button img {
+   margin-top: 24px;
+   width: 16px;
+   position: relative;
+   top: -12px;
+   right: 5px;
+}
+
+.notes-input {
+   max-width: 530px;
+   min-height: 150px;
+   background: #fff;
+   border-radius: 8px;
+   margin-left: 70px;
+   margin-top: 20px;
+   position: relative;
+   color: black;
+   outline: 0;
+   font-size: 1.4rem;
+   padding: 4px;
+}
+
+.notes-container p img {
+   width: 32px;
+   position: absolute;
+   bottom: 8px;
+   right: 6px;
+   transition: 0.5s;
+   cursor: pointer;
+   user-select: none;
+}
+
+.notes-container p img:hover {
+   transform: scale(1.05);
+}
